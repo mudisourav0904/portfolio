@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#aboutus">About</a></li>
+                    <li><a href="#eq">Education</a></li>
+                    <li><a href="#ski">Skills</a></li>
+                    <li><a href="#concid">Contact</a></li>
+                </ul>
+            </nav>
+    <div class="mybg">
+        <h3 class="hey">Hey! Meet </h3>
+            <h1 class="name">Sourav <span>Mudi</span></h1>
+            <h4 class="hey">I'm a Frontend Developer Learner.<br><br>Here's My</h4>
+             <h1 class="name">Port<span>Folio</span></h1>
+    </div>
+    </div>
+    </div>
+
+
+<!-- 
+ABOUT -->
+
+
+        <section id="aboutus" class="about">
+            <div class="main">
+                <div class="abouttext">
+                <h2 class="abt">About ME</h2>
+           <h3 class="abttxt">Currently a Bachelors Student.<br>
+            Collecting knowledge for being a Front-enD Developer.<br>
+            Straight-forward and hardworking nature.<br>
+            Having more than an average command in C Programming language.<br>
+            Interested in  making presentations in Microsoft-PowerPoint.</h3>
+       <div class="cv">
+        <a target="_blank" href="https://drive.google.com/file/d/1ehS_4e32wdh-_OGBNr1DI3s7WqcIADl5/view?usp=drivesdk">Open CV</a>
+    </div>
+</div>
+        </section>
+
+<!-- 
+EDUCATION QUALIFICATION -->
+
+
+
+        <section id="eq">
+            <h2 class="eq">
+                Education Qualification
+            </h2>
+            <fieldset class="edu">
+            <h3 class="deg">
+            
+                Bachelor In Computer Application</h3>
+                <p class="pg">Work In Progress</p>
+                <p class="yr">Will Be Graduate in 2024</p>
+            </fieldset>
+            <fieldset class="edu">
+                <h3 class="deg">AISSE(Intermediate)</h3>
+                <p class="pg">Gained 78% from CBSE board</p>
+                <p class="yr">Passed in 2018</p>
+            </fieldset>
+            <fieldset class="edu">
+                <h3 class="deg">AISSCE(Matriculation)</h3>
+                <p class="pg">Gained 81% from CBSE board</p>
+                <p class="yr">Passed in 2021</p>
+            </fieldset>
+        </section>
+
+
+<!-- 
+SKILLS -->
+
+
+    <section id="ski">
+       <h2 class="skills">Skills I've To Furbish More!</h2>
+        <div class="skill">
+            <div class="skillname">HTML</div>
+                <div class="skillbar">
+                <div class="skillper" per="60%" style="max-width:60%"></div>
+                </div>
+        </div>
+                <div class="skill">
+                    <div class="skillname">CSS</div>
+                        <div class="skillbar">
+                        <div class="skillper" per="60%" style="max-width:60%"></div>
+                        </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skillname">C programming Language</div>
+                                <div class="skillbar">
+                                <div class="skillper" per="75%" style="max-width:75%"></div>
+                            </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skillname">MS-Powerpoint Presentations</div>
+                                        <div class="skillbar">
+                                        <div class="skillper"per="85%" style="max-width:85%"></div>
+                                    </div>
+                                        </div>
+                                        </div>
+    </section>
+
+
+
+
+<!-- CONTACT -->
+
+
+
+
+    <section id="concid">
+        <h2 class="con">How Can U Contact ME?</h2>
+    
+        <h3 class="msg">
+            Send Your Message Here
+        </h3>
+        <div class="cbox"> 
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <div class="inputrow">
+            <div class="inputgroup">
+            <label>Name</label>
+            <input type="text" placeholder="Enter Your Name">
+</div>
+</div>
+<div class="inputrow">
+    <div class="inputgroup">
+    <label>Phone</label>
+    <input type="text" placeholder="Enter Your Contact Number">
+</div>
+</div>
+<div class="inputrow">
+    <div class="inputgroup">
+    <label>Email ID</label>
+    <input type="email" placeholder="Enter Your Mail ID">
+</div>
+</div>
+<div class="inputrow">
+<div class="inputgroup">
+<label>Message</label>
+<input type="text" placeholder="Enter Your Message">
+<button type="Submit">Submit</button>
+</div>
+</div>
+        </form>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail()
+            {
+                Email.send({
+                    Host : "smtp.gmail.com",
+                    Username : "infosourav090@gmail.com",
+                    Password : "Sourav@090",
+                    To : 'infosourav090@gmail.com',
+                    From : document.getElementById("email").value,
+                    Subject : "New Contact Form Enquiry",
+                    Body : "And this is the body"
+                }).then(
+                message => alert(message)
+                );
+            }
+        </script>
+    </div>
+</section>
+
+
+<!-- JOIN -->
+
+
+<section>
+    <h2 class="join">
+        Join Me On
+    </h2>
+    <a class="sm" href="https://www.instagram.com/khushaal_apki_zindagi_ho/" target="_blank">Instagram</a>
+    <a class="sm" href="https://www.facebook.com/saurabh.kazh.904/" target="_blank">Facebook</a>
+    <a class="sm" href="https://www.linkedin.com/in/sourav-mudi-b817bb220/" target="_blank">LinkedIn</a>
+    <a class="sm" href="https://www.linkedin.com/in/sourav-mudi-b817bb220/" target="_blank">Github</a>
+</section>
+<footer>
+    <h3 class="joinme">
+    <a href="#">&copy;</a>
+    
+    Copyrights Sourav Mudi.All Rights Reserved
+    </h3>
+</footer>
+</body>
+</html>

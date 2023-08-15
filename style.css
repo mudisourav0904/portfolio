@@ -1,0 +1,294 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"Times New Roman", Times, serif;;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: #fff;
+}
+.container{
+    padding: 10px 10%;
+    height: 1500px;
+    width: 4558px;
+        background-image: url(bg24.jpg);
+        background-size: cover;
+}
+span{
+    color:red;
+}
+nav
+{
+    
+    padding-top: 40px;
+    padding-left: 8%;
+    }
+nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+
+
+}
+nav ul li a{
+    background:black;
+    color: #fff;
+    border: 2px solid pink;
+    font-weight: bolder;
+    padding: 10px 35px;
+    border-radius: 30px;
+    font-size: 45px;
+}
+.mybg
+{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.name
+{
+    font-size: 120px;
+    
+}
+.hey
+{
+    font-size: 60px;
+}
+.about
+{
+padding: 100px 0px;
+padding-left: 5%;
+}
+.abouttext h2
+{
+    font-size: 105px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 3150px;
+    padding-left: 38%;
+    color: #fff;
+}
+.abouttext h3{
+    color:#FF7F50;
+    font-size: 60px;
+    text-align: center;
+    background-color: #191919;
+}
+
+.cv
+{
+    font-size: 80px;
+    padding-left: 41%;
+    margin-top: 100px;
+}
+.me
+{
+    color: #3498DB;
+}
+.main
+{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.eq{
+    font-size: 105px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 3150px;
+    padding-left: 38%;
+}
+.deg
+{
+    color:#FF7F50;
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 45px;
+    padding-top: 1.5%;
+    text-align: center;
+}
+.pg
+{
+    color:#4682B4;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.yr
+{
+    color:#F0E68C;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.edu
+{
+    background-color:#191919;
+    padding-bottom: 1%;
+}
+.skills
+{
+    font-size: 105px;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 4050px;
+    padding-left: 36%;
+}
+.skillname
+{
+    font-size: 18px;
+    background-color:#191919;
+    font-weight: 700;
+    color:#fff;
+    text-transform: uppercase;
+    margin:20px 0;
+    font-size: 50px;
+    letter-spacing: 10px;
+    line-height: 130px;
+}
+.skillbar
+{
+    height: 14px;
+    background-color:#191919;
+    border-radius: 3px;
+    font-size: 50px;
+    letter-spacing: 10px;
+    line-height: 130px;
+}
+.skillper
+{
+    height: 14px;
+    background: #FF1493;
+    border-radius: 3px;
+    position: relative;
+    font-size: 50px;
+    letter-spacing: 10px;
+    line-height: 130px;
+    padding-bottom: 1%;
+    animation: fillBars 2.5s 1;
+}
+.skillper::before
+{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+font-size: 12px;
+top:-35px;
+right:0;
+transform: translateX(50%);
+}
+.skillper::after
+{
+content: "";
+position: absolute;
+width: 10px;
+height: 10px;
+background: #f1f1f1;
+top:-20px;
+right:0;
+transform: translateX(50%) rotate(45deg);
+border-radius: 2px;
+}
+@keyframes fillBars
+{
+    from
+    {
+        width:0;
+    }
+    to{
+        width:100%;
+    }
+}
+.con{
+    font-size: 105px;
+    text-transform: capitalize;
+    margin-top: 105px;
+    margin-bottom: 95px;
+    width: 4050px;
+    padding-left: 37%;
+}
+.btn
+{
+    font-size: 50px;
+    padding-left: 47%;
+}
+.cbox
+{
+    background: #191919;
+    display: flex;
+    color:#F0E68C;
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 70px;
+    padding-left: 45%;
+
+}
+.msg
+{
+    background: #191919;
+    display: flex;
+    color:#F0E68C;
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 70px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-left: 43%;
+}
+input{
+    width:100%;
+
+}
+.join
+{
+    font-size: 105px;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 4050px;
+    padding-left: 44%;
+}
+.joinme
+{
+    background: #191919;
+    display: flex;
+    color:#F0E68C;
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding-left: 38%;
+}
+.sm{
+    padding-left:18%;
+    font-size: 40px;
+}
+form button
+{
+font-size: xx-large;
+padding: 23px;
+margin-top: 5%;
+background: #FF1493;
+font-weight: bolder;
+color:#F0E68C;
+border-radius: 45px;
+margin-bottom: 5%;
+
+}
+form input, form textarea
+{
+    padding:20px;
+    font-size: xx-large;
+}
